@@ -189,3 +189,26 @@ footer {
   text-align: center;
   font-size: 14px;
 }
+
+/*tablet*/
+@media(max-width: 768px){
+  .cta img {
+    display: none;
+  }
+  
+  .main-content .middle-img{
+    display: none;
+  }
+
+  header nav {
+    display: inline;
+    width: 691px;
+    vertical-align: top;
+    margin-top: 35px;
+  }
+
+  header .logo {
+    
+    
+  }
+}
